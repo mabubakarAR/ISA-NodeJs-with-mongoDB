@@ -1,27 +1,27 @@
 {
-  "name": "mern-training",
+  "name": "mern",
   "version": "1.0.0",
-  "description": "Getting started with MERN",
+  "description": "Nodejs Challenge task",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server",
     "start": "NODE_ENV=production node server"
   },
-  "author": "",
+  "author": "Muhammad Abubakar",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "express-fileupload": "^1.4.0",
     "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.6",
-    "morgan": "^1.10.0",
-    "node-geocoder": "^4.2.0",
-    "slugify": "^1.6.5"
+    "morgan": "^1.10.0"
   }
 }
